@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:399px;
+    height:844px;
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(image1.png);
+    background-position: center;
+    background-size: 399px 844px;
+    position: center;
+    border: 5px solid black;
+
+
+
+}
