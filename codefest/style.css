@@ -20,3 +20,146 @@
 
 
 }
+.Container{
+    font-family: sans-serif;
+        font-size: large;
+        color: aliceblue;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width:399px;
+        height:844px;
+        background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(image0.png);
+        background-position: center;
+        background-size: 399px 844px;
+        
+        #form {
+            width: 500px;
+            margin: 10vh;
+            padding: 20px;
+            border-radius: 4px;
+            font-size: 12px;
+
+        }
+
+        #form h1{
+            color: whitesmoke;
+            text-align: center;
+        }
+
+     
+
+      #form button{
+        padding: 10px;
+        margin-top: 10px;
+        width: 100%;
+        color:aliceblue;
+        background-color: rgb(41, 57, 194);
+        border: none;
+        border-radius: 4px;
+      }
+      .input-control input{
+        border: 2px solid white;
+        border-radius: 4px;
+        display: block;
+        font-size: 12px;
+    
+        padding:10px;
+        width:100%;
+
+
+      }
+
+      .input-control input:focus{
+        outline: 0;
+      }
+
+      .input-control.success input {
+        border-color: green;
+
+      }
+      .input-control.error input {
+        border-color: red;
+        
+      }
+      .input-control.error input {
+        color: red;
+        font-size: 9px;
+        height: 13px;
+        
+      }
+
+    
+}
+
+.ContaineR{
+    font-family: sans-serif;
+        font-size: large;
+        color: aliceblue;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width:399px;
+        height:844px;
+        background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(image0.png);
+        background-position: center;
+        background-size: 399px 844px;
+        
+        #form {
+            width: 500px;
+            margin: 10vh;
+            padding: 20px;
+            border-radius: 4px;
+            font-size: 12px;
+
+        }
+
+        #form h1{
+            color: whitesmoke;
+            text-align: center;
+        }
+
+     
+
+      #form button{
+        padding: 10px;
+        margin-top: 10px;
+        width: 100%;
+        color:aliceblue;
+        background-color: rgb(41, 57, 194);
+        border: none;
+        border-radius: 4px;
+      }
+      .input-control input{
+        border: 2px solid white;
+        border-radius: 4px;
+        display: block;
+        font-size: 12px;
+    
+        padding:10px;
+        width:100%;
+
+
+      }
+
+      .input-control input:focus{
+        outline: 0;
+      }
+
+      .input-control.success input {
+        border-color: green;
+
+      }
+      .input-control.error input {
+        border-color: red;
+        
+      }
+      .input-control.error input {
+        color: red;
+        font-size: 9px;
+        height: 13px;
+        
+      }
+
+    
+}
